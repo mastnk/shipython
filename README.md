@@ -49,8 +49,11 @@ Enjoy!
 
 - requests
 
+- openpyxl
+
 ```
 % pip install requests
+% pip install openpyxl
 ```
 ### Instalation
  1. Clone this repository:
