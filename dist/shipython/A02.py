@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #
-# Find the second largest value in a list
+# Find the second largest value in the list.
 #
 
 ID = '01234'
