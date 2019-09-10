@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #
-# Replace four-character word starting with "F" or "f" by "****".
+# Replace four-character words starting with "F" or "f" by "****".
 #
 
 ID = '01234'

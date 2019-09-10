@@ -49,7 +49,7 @@ for col, file in enumerate(files, start=2):
     ws_check.cell( row=1, column=col ).value = file
     for row, ID in enumerate(IDs, start=2):
         try:
-            ws_code.cell( row=row, column=col ).value = test( file, ID, dev = args.dev )
+            ws_code.cell( row=row, column=col ).value = test( file, ID, '', args.dev, False )
         except:
             pass
 
