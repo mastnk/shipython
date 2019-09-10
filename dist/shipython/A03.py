@@ -9,6 +9,7 @@ ID = '01234'
 
 
 def func( str ): # str: string
+    # edit here
     return 0
 
 
