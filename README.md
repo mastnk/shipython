@@ -100,8 +100,13 @@ Enjoy!
  
 # Problems
 
+## Basic
+
 1. **A00.py** : Multiply a and b.
 1. **A01.py** : Calculate the sum of the list.
 1. **A02.py** : Find the second largest value in the list.
 1. **A03.py** : Calculate the sum of the ASCII code of each character.
-1. **A04.py** : Replace four-character word starting with "F" or "f" by "****".
+1. **A04.py** : Replace four-character words starting with "F" or "f" by "****".
+1. **A05.py** : Remove duplicate elements in the list.
+1. **A06.py** : Remove unique elements in the list.
+1. **A07.py** : Remove successive characters in the text.
