@@ -11,25 +11,25 @@ Enjoy!
 
   1. Get shipython.zip. For the self-training learner, please use shipython.zip on this repository, or an instructor distributes the file for you.
   1. Unzip the file:
-    ```
-    % unzip shipython.zip
-    % cd shipython
-    ```
+     ```
+     % unzip shipython.zip
+     % cd shipython
+     ```
   1. Edit python file like A00.py. Don't forget to change the ID.
   1. Check the code by:
-    ```
-    % python A00.py
-    ```
+     ```
+     % python A00.py
+     ```
   1. If your code works fine, submit the code:
-    ```
-    % python submit.py A00.py
-    ```
+     ```
+     % python submit.py A00.py
+     ```
   1. If the test is passed you will have the message like:
-    ```
-    -------
-    PASSED. testA00.py
-    code:  DE94  (01234)
-    ```
+     ```
+     -------
+     PASSED. testA00.py
+     code:  DE94  (01234)
+     ```
   1. Report the code to your instructors.
   1. If the test is failed, please re-edit the code and try again.
 
@@ -97,6 +97,5 @@ Enjoy!
     % sh id2xls.sh
     ```
     Note that the checking code is different with and without the *--dev* option.
- 
  
  
