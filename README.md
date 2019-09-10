@@ -94,7 +94,7 @@ Enjoy!
  1. For making the xls file, please use the the following commands:
     ```
     % cd dist
-    % sh id2xls.sh
+    % sh id2xls.sh --dev
     ```
     Note that the checking code is different with and without the *--dev* option.
  
