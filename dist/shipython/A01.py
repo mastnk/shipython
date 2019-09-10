@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #
-# Calculate sum of list
+# Calculate the sum of the list.
 #
 
 ID = '01234'
