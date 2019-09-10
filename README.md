@@ -98,4 +98,10 @@ Enjoy!
     ```
     Note that the checking code is different with and without the *--dev* option.
  
- 
+# Problems
+
+1. **A00.py** : Multiply a and b.
+1. **A01.py** : Calculate the sum of the list.
+1. **A02.py** : Find the second largest value in the list.
+1. **A03.py** : Calculate the sum of the ASCII code of each character.
+1. **A04.py** : Replace four-character word starting with "F" or "f" by "****".
