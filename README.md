@@ -32,6 +32,7 @@ Enjoy!
      ```
   1. Report the code to your instructors.
   1. If the test is failed, please re-edit the code and try again.
+  1. (Optional) If your instructors provide the *URL*. Your data is automatically uploaded. You can view their progress and the ranking of the code size competition by accesing the *URL* with their your and the code of the first problem.
 
 ## Virtual environment (pyenv)
 
@@ -55,14 +56,22 @@ Enjoy!
 % pip install requests
 % pip install openpyxl
 ```
-### Instalation
+### Generate ZIP file for your learners
  1. Clone this repository:
     ```
     % git clone https://github.com/mastnk/shipython
     ```
- 1. Solve all problems in dist/shiptyhon/
  1. (Optional) Edit the *KEY* in submit.py, where KEY is any code what you want like course number and year.
- 1. (Optional) Specify the *URL* in dist/shipython/submit.py, where URL is for reg.cgi
+ 1. (Optional) Specify the *URL* in dist/shipython/submit.py, where URL corresponds to the directory to be uploaded web.
+ 1. Zip files
+     ```
+     % cd dist
+     % zip -r shipython.zip shipython
+     ```
+ 1. Distribute **new** dist/shipython.zip to learners.
+
+### Generate xlsx file to check learners' progress
+ 1. Solve all problems in dist/shiptyhon/
  1. Edit dist/IDs.txt, for example, you can put learner IDs line-by-line.
  1. Make xlsx file for checking.
     ```
@@ -71,20 +80,25 @@ Enjoy!
     ```
  1. Instructors can use the *check.xlsx* to check the progress of students.
  1. Distribute dist/shipython.zip to learners.
- 
+  
 ### Server setting (Optional)
-
- 1. Upload all files in web/ and *check.xlsx*.
+ 1. Upload all files in web/ and *check.xlsx* to the directory associated the *URL*.
+ 1. Change mode:
+    ```
+    sh chmod.sh
+    ```
  1. Make sure file permissions and other settings.
- 1. Zip files
-     ```
-     % cd dist
-     % zip -r shipython.zip shipython
-     ```
- 1. Distribute **new** dist/shipython.zip to learners.
-    Then, when learners submit the code, *check.xlsx* is automatically updated.
  
- ## Adding problems
+ When the learners solve the problem, the *check.xlsx* would be automatically updated.
+ The number of characters are counted and it also registerd in the *check.xlsx*. The minimum size of the code competition may be fun.
+ If the code size is less than registered data, the data would be overwritten.
+
+ Please download the *check.xlsx* to check the progress.
+ 
+ The learners can also view their progress and the ranking of the code size competition by accesing the URL with their ID and the code of the first problem.
+
+ 
+### Adding problems
 
  1. Prepare *hoge*.py and TEST/test*hoge*.py. 
  1. *hoge*.py should include:
@@ -99,6 +113,7 @@ Enjoy!
            assert func( 3, 2 ) == 6, 'func( 3, 2 )'
            assert func( 3, 0 ) == 0, 'func( 3, 0 )'
        ```
+ 1. If you want to integrate your problems, please contact: [https://github.com/mastnk/shipython](https://github.com/mastnk/shipython)
  
 # Problems
 
@@ -112,3 +127,9 @@ Enjoy!
 1. **A05.py** : Remove duplicate elements in the list.
 1. **A06.py** : Remove unique elements in the list.
 1. **A07.py** : Remove successive characters in the text.
+1. **A08.py** : Rotate the list, where the right is positive direction.
+1. **A09.py** : Encrypt the text by Caesar cipher.
+1. **A10.py** : Find the second oldest person in dictionary.
+1. **A11.py** : Calculate histgoram of frequency of characters in the text.
+1. **A12.py** : Translate (row,colmun) to the excel-style cell identifier.
+1. **A13.py** : Calculate days between two dates.

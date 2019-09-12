@@ -1,6 +1,9 @@
-Options +ExecCGI +FollowSymlinks
-AddType application/x-httpd-cgi .cgi .py
+Options +ExecCGI -Indexes
+AddType application/x-httpd-cgi .cgi
+DirectoryIndex index.cgi
 
-<Files ~ "\.[xlsx|sh]$">
+<Files ~ "\.[xlsx|sh|htaccess]$">
   deny from all
 </Files>
+
+

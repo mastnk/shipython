@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #
-# Rotate the list, where the right is positive direction
+# Rotate the list, where the right is positive direction.
 #  n=2, [ 1, 2, 3, 4, 5 ] -> [ 4, 5, 1, 2, 3 ]
 #
 
