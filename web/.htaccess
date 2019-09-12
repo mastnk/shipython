@@ -1,0 +1,6 @@
+Options +ExecCGI +FollowSymlinks
+AddType application/x-httpd-cgi .cgi .py
+
+<Files ~ "\.[xlsx|sh]$">
+  deny from all
+</Files>
