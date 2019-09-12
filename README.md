@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# shipython
-=======
 # ShiPython
 
 It is self-training tool to learn python. Please develop the function for eacy python code. Then, submit it! 
@@ -64,8 +61,10 @@ Enjoy!
     % git clone https://github.com/mastnk/shipython
     ```
  1. Solve all problems in dist/shiptyhon/
+ 1. (Optional) Edit the *KEY* in submit.py, where KEY is any code what you want like course number and year.
+ 1. (Optional) Specify the *URL* in dist/shipython/submit.py, where URL is for reg.cgi
  1. Edit dist/IDs.txt, for example, you can put learner IDs line-by-line.
- 1. Make xlsx file for checking.　
+ 1. Make xlsx file for checking.
     ```
     % cd dist
     % sh id2xls.sh
@@ -77,7 +76,6 @@ Enjoy!
 
  1. Upload all files in web/ and *check.xlsx*.
  1. Make sure file permissions and other settings.
- 1. Specify the *URL* in dist/shipython/submit.py.
  1. Zip files
      ```
      % cd dist
@@ -101,16 +99,6 @@ Enjoy!
            assert func( 3, 2 ) == 6, 'func( 3, 2 )'
            assert func( 3, 0 ) == 0, 'func( 3, 0 )'
        ```
- 1. If you added some problems, the learner should specify *--dev* option to submit:
-    ```
-    % python submit.py --dev hoge.py
-    ```
- 1. For making the xls file, please use the the following commands:
-    ```
-    % cd dist
-    % sh id2xls.sh --dev
-    ```
-    Note that the checking code is different with and without the *--dev* option.
  
 # Problems
 
@@ -124,4 +112,3 @@ Enjoy!
 1. **A05.py** : Remove duplicate elements in the list.
 1. **A06.py** : Remove unique elements in the list.
 1. **A07.py** : Remove successive characters in the text.
->>>>>>> 84517a6... Update README.md
